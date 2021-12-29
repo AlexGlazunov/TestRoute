@@ -20,19 +20,19 @@ class ViewController: UIViewController {
     
     let addAdressButton : UIButton = {
         let button = UIButton()
-        button.setTitle("addAdress", for: .normal)
+        button.setImage(UIImage(named: "addAdress"), for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     let routeButton : UIButton = {
         let button = UIButton()
-        button.setTitle("route", for: .normal)
+        button.setImage(UIImage(named: "route"), for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     let resetButton : UIButton = {
         let button = UIButton()
-        button.setTitle("reset", for: .normal)
+        button.setImage(UIImage(named: "reset"), for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
