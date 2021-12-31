@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }()
     let routeButton : UIButton = {
         let button = UIButton()
-        button.setImage(UIImage(named: "route"), for: .normal)
+        button.setImage(UIImage(named: "route//"), for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -58,8 +58,8 @@ class ViewController: UIViewController {
         
     }
 }
-
-extension ViewController {
+    
+   extension ViewController {
     
     func setConstraints() {
         
@@ -81,4 +81,4 @@ extension ViewController {
     }
 }
 
-//test
+
